@@ -22,3 +22,10 @@ const kareAl=(a) => {
     return a*a;
 }
 export default kareAl;
+
+
+//Temiz Module yazımı 
+//eğer değeri hemen return edecekseniz return parametresini ve süslü parantez kullanmaya gerek yok.
+export const carp = (a,b) => a*b;
+//eğer arrow func içine tek parametre alıyorsa parantezlere de gerek yok.
+const getParameter = a =>  console.log("Parameter is : ",a);
